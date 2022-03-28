@@ -1,5 +1,5 @@
 {
-  "name": "lalamove/delivery-sdk",
+  "name": "lalamove-api/delivery-sdk",
   "description": "Unofficial sdk for Lalamove's API. WIP",
   "require": {
     "php": ">=7.4"
