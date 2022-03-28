@@ -2,6 +2,6 @@
   "name": "lalamove/delivery-sdk",
   "description": "Unofficial sdk for Lalamove's API. WIP",
   "require": {
-    "php": ">=7.4",
+    "php": ">=7.4"
   }
 }
