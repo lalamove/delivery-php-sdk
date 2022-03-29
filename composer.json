@@ -2,6 +2,9 @@
   "name": "lalamove-api/delivery-sdk",
   "description": "Unofficial sdk for Lalamove's API. WIP",
   "require": {
-    "php": ">=7.4"
+    "php": ">=7.3",
+    "guzzlehttp/guzzle": "^7.0",
+    "nesbot/carbon": "^2.57",
+    "vlucas/phpdotenv": "^5.4"
   }
 }

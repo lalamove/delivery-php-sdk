@@ -1,10 +1,13 @@
 <?php
-namespace src;
-
-class QuotationService
-{
-    public $id = "12323";
-    public function create(){
-        return [];
-    }
-}
+//namespace src;
+//
+//use Lalamove\Http\LalamoveRequest;
+//
+//class QuotationService
+//{
+//
+//    public function create(){
+//        $request = new LalamoveRequest()
+//        return [];
+//    }
+//}

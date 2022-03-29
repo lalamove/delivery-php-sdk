@@ -2,9 +2,10 @@
 
 namespace src;
 
-require("Client.php");
+use Lalamove\Resources\QuotationsResource;
+
 require("OrderService.php");
-require("QuotationService.php");
+require("src/Resources/QuotationsResource.php");
 
 class Client
 {
@@ -19,7 +20,7 @@ class Client
     public $orders;
 
     /**
-     * @var QuotationService
+     * @var QuotationsResource
      */
     public $quotations;
 
@@ -29,7 +30,7 @@ class Client
     public function __construct($config)
     {
         $this->config = $config;
-        $this->quotations = new QuotationService();
+        $this->quotations = new QuotationsResource($config);
     }
 
 }
